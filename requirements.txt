@@ -13,7 +13,7 @@ typing-extensions~=4.5.0
 google-api-core[grpc]
 fabric~=2.6.0
 optax==0.1.9
-dm-haiku==0.0.10
+dm-haiku==0.0.12
 ray[default]
 jax==0.4.23
 jaxlib==0.4.23
