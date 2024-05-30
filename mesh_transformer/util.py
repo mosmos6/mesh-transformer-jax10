@@ -1,6 +1,7 @@
 import jax
 import jax.numpy as jnp
-from jax.experimental.pjit import with_sharding_constraint
+# from jax.experimental.pjit import with_sharding_constraint
+from jax.lax import with_sharding_constraint
 from optax import AdditiveWeightDecayState, GradientTransformation
 from typing import NamedTuple
 import chex
